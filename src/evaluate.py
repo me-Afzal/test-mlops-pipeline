@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import sys
 
-df=pd.read_csv('data/processed/IRIS_processed')
+df=pd.read_csv('data/raw/IRIS_processed')
 
 x=df.drop(columns=['species'])
 y=df.species

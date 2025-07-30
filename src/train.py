@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-df=pd.read_csv('data/processed/IRIS_processed')
+df=pd.read_csv('data/raw/IRIS_processed')
 
 x=df.drop(columns=['species'])
 y=df.species
